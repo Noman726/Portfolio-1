@@ -88,6 +88,7 @@ const Button = ({ children, size = "default", variant = "default", className = "
   )
 }
 
+/*
 const projects = [
   {
     id: 1,
@@ -172,6 +173,7 @@ const projects = [
     githubLink: "https://github.com/aliasgarsogiawala/React_Multipurpose",
   },
 ]
+*/
 
 export default function Projects() {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null)
@@ -219,6 +221,7 @@ export default function Projects() {
             </p>
           </motion.div>
 
+          {/*
           <motion.div
             variants={containerVariants}
             initial="hidden"
@@ -290,6 +293,7 @@ export default function Projects() {
               </motion.div>
             ))}
           </motion.div>
+          */}
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -298,13 +302,13 @@ export default function Projects() {
             className="flex justify-center pt-8"
           >
             <Link 
-              href="https://github.com/aliasgarsogiawala" 
+              href="https://github.com/noman726" 
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 rounded-full bg-gradient-to-r from-cyan-600 to-blue-600 text-white hover:from-cyan-700 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl text-lg font-medium hover:scale-105 transform"
             >
               <Github className="mr-3 h-6 w-6" />
-              View More on GitHub
+              View on GitHub
             </Link>
           </motion.div>
         </div>

@@ -42,14 +42,14 @@ export default function Header() {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2 group">
           <div className="flex items-center justify-center rounded-full bg-cyan-600 w-8 h-8 text-white font-bold transition-transform group-hover:scale-110">
-            A
+            N
           </div>
           <span className="font-bold text-lg relative overflow-hidden">
             <span className="inline-block transition-transform duration-300 group-hover:translate-y-[-100%]">
-              Aliasgar's Portfolio
+              Noman's Portfolio
             </span>
             <span className="absolute top-0 left-0 inline-block translate-y-[100%] transition-transform duration-300 group-hover:translate-y-0 text-cyan-600">
-              Aliasgar's Portfolio
+              Noman's Portfolio
             </span>
           </span>
         </Link>
@@ -70,6 +70,7 @@ export default function Header() {
         </nav>
         
         <div className="flex items-center gap-4">
+          {/*
           <a 
             href="/aliasgar_resume_.pdf"
             download
@@ -90,6 +91,7 @@ export default function Header() {
               </span>
             </Button>
           </a>
+          */}
           
           <button 
             className="md:hidden flex items-center justify-center w-10 h-10 rounded-full bg-cyan-100 text-slate-700 hover:bg-cyan-200 transition-colors"
@@ -123,6 +125,7 @@ export default function Header() {
               </Link>
             </motion.div>
           ))}
+          {/*
           <motion.div
             initial={{ x: -20, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -143,6 +146,7 @@ export default function Header() {
               </Button>
             </a>
           </motion.div>
+          */}
         </div>
       </motion.div>
     </motion.header>

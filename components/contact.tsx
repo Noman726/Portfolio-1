@@ -52,8 +52,8 @@ export default function Contact() {
   };
 
   const contactInfo = [
-    { icon: <Mail className="h-5 w-5" />, text: "itsaliasgar18@gmail.com" },
-    { icon: <Phone className="h-5 w-5" />, text: "+91 7506878510" },
+    { icon: <Mail className="h-5 w-5" />, text: "nomanpatel726@gmail.com" },
+    { icon: <Phone className="h-5 w-5" />, text: "+91 8691991997" },
     { icon: <MapPin className="h-5 w-5" />, text: "Mumbai, Maharashtra , India" },
   ]
 
@@ -187,16 +187,18 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col items-center mt-8 space-y-4"
           >
+            {/*
             <p className="text-muted-foreground text-lg">Like my work? Support me with a coffee ☕</p>
-            <a 
-              href="https://www.buymeacoffee.com/aliasgarsogiawala" 
-              target="_blank" 
+            <a
+              href="https://www.buymeacoffee.com/aliasgarsogiawala"
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 rounded-full bg-primary text-black font-medium hover:bg-[#FFDD00]/90 transition-colors"
             >
               <Coffee className="mr-2 h-5 w-5" />
               Buy me a coffee
             </a>
+            */}
           </motion.div>
         </div>
       </div>

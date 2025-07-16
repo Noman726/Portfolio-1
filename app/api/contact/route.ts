@@ -17,7 +17,7 @@ export async function POST(request: Request) {
     // Email content
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'itsaliasgar18@gmail.com', // Your email address
+      to: 'nomanpatel726@gmail.com', // Your email address
       subject: `Portfolio Contact Form: Message from ${name}`,
       text: `
         Name: ${name}

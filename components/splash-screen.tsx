@@ -29,7 +29,7 @@ const useTypewriter = (text: string, speed: number = 100, startTyping: boolean =
 export default function SplashScreen() {
   const [isVisible, setIsVisible] = useState(true)
   const [isMounted, setIsMounted] = useState(false)
-  const { displayText: nameText, isDone: nameIsDone } = useTypewriter("Aliasgar Sogiawala", 80, isMounted)
+  const { displayText: nameText, isDone: nameIsDone } = useTypewriter("Noman Patel", 80, isMounted)
   const { displayText: roleText, isDone: roleIsDone } = useTypewriter("Full Stack Developer", 80, nameIsDone)
 
   const windowSize = useRef({ width: 1200, height: 800 })

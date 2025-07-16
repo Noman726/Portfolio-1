@@ -19,24 +19,41 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: "Backend , Web Developer & SEO",
-    company: "Overtures Infotech.",
+    title: " Web Developer",
+    company: "Codsoft .",
     location: "Mumbai, India",
-    period: "May 2023 - July 2023",
-    description: "Checked for and fixed bugs in websites , embedded websites in apps , made chatbots and did SEO through Google Search Console.",
-    skills: ["Python", "SEO", "OpenAI", "Html/Css"],
+    period: "April 2025 - May 2025",
+    description: "Made websites as they wanted to.",
+    skills: ["Python", "Html/Css"],
     logo: "/oi.png"
   },
   {
     title: "Full Stack Developer",
     company: "Zillionite",
     location: "Mumbai, India",
-    period: "Feb 2025 - April 2025",
-    description: "Single Handedly developed , maintained the entire Zillionite website from scratch. Consisting of Frontend , Backend , Hosting , Database , Payment Integration",
-    skills: ["Next.js", "Typescript", "Tailwind Css", "MongoDB", "Razorpay", "OpenAI","Google Search Console"],
+    period: "July 2025 - December 2025",
+    description: "Single Handedly  the PR Department of Zillionite company and assist in making the website",
+    skills: ["Next.js", "Typescript", "Tailwind Css"],
     logo: "/Circular-Logo.png"
   },
-  
+  {
+    title: "Core Member",
+    company: "DotcomClub Jai Hind College",
+    location: "Mumbai, India",
+    period: "2024 - 2025",
+    description: "Led and organized entire fests, events, and seminars as a core member of DotcomClub at Jai Hind College.",
+    skills: ["Leadership", "Event Management", "Teamwork", "Communication"],
+    logo: "/peng.png"
+  },
+  {
+    title: "Web Developer",
+    company: "Oasis",
+    location: "Remote",
+    period: "2023 - 2024",
+    description: "Built a website for Oasis and contributed to web development projects.",
+    skills: ["Web Development", "React", "Next.js", "UI/UX"],
+    logo: "/po.png"
+  },
 ]
 
 export default function Experience() {
