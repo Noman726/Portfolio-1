@@ -228,7 +228,7 @@ export default function Hero() {
             <a href="https://github.com/noman726" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-slate-800 transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="www.linkedin.com/in/noman-patel-99107429a" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-slate-800 transition-colors">
+            <a href="https://www.linkedin.com/in/noman-patel-99107429a" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-slate-800 transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
             <a href="https://instagram.com/nomanpatel726" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-slate-800 transition-colors">
