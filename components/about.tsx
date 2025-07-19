@@ -54,13 +54,13 @@ export default function About() {
                 small business websites to complex web applications.
               </p>
               <p>
-                My expertise lies in modern frontend technologies like React, Next.js, and TypeScript, Backend Technologies like Python ,firebase , MySQL and MongoDB combined with a
-                strong foundation in UI/UX design principles. I believe in writing clean, maintainable code and creating
-                intuitive user experiences.
+              My expertise spans modern frontend technologies like React, Next.js, and TypeScript, as well as backend technologies such as Python, 
+              Firebase, MySQL, and MongoDB. I have a strong foundation in UI/UX design principles and take pride in writing clean, maintainable code 
+              while delivering seamless user experiences.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                or sharing my knowledge through blog posts and community events.
+               Beyond coding, I enjoy exploring emerging technologies, contributing to open-source projects, and actively participating in tech communities 
+               and events.My hobbies are Swimming, Riding Bikes, Gym and learning Calisthenics.Planning to do modelling as a Hobby.
               </p>
             </motion.div>
 
