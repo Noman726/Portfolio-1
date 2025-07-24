@@ -28,7 +28,7 @@ const experiences: Experience[] = [
     logo: "/oi.png"
   },
   {
-    title: "Full Stack Developer",
+    title: "Public Relations",
     company: "Zillionite",
     location: "Mumbai, India",
     period: "July 2025 - December 2025",
