@@ -48,20 +48,12 @@ export default function About() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="space-y-4"
             >
-              <p>
-                I'm a 20 year old  developer with a focus on creating problem solving, functional, and user-friendly
-                web applications , softwares and mobile apps. With 2 years of experience in the field, I've worked on a variety of projects from
-                small business websites to complex web applications.
-              </p>
-              <p>
-              My expertise spans modern frontend technologies like React, Next.js, and TypeScript, as well as backend technologies such as Python, 
-              Firebase, MySQL, and MongoDB. I have a strong foundation in UI/UX design principles and take pride in writing clean, maintainable code 
-              while delivering seamless user experiences.
-              </p>
-              <p>
-               Beyond coding, I enjoy exploring emerging technologies, contributing to open-source projects, and actively participating in tech communities 
-               and events.My hobbies are Swimming, Riding Bikes, Gym and learning Calisthenics.Planning to do modelling as a Hobby.
-              </p>
+              <p> I'm a 20-year-old developer passionate about building problem-solving, functional, and user-friendly web applications, software, and mobile apps. 
+                With two years of hands-on experience, I've contributed to a range of projects—from small business websites to advanced web platforms. </p> 
+              <p> My skill set includes modern frontend technologies such as React, Next.js, and TypeScript, as well as backend tools like Python, Firebase, MySQL, and MongoDB. 
+                I have a solid understanding of UI/UX design principles and take pride in writing clean, maintainable code while delivering smooth, intuitive user experiences. </p> 
+              <p> Outside of coding, I enjoy exploring new technologies, contributing to open-source projects, and engaging with the tech community through events and meetups. 
+                In my free time, I enjoy swimming, biking, working out at the gym, and learning calisthenics. I'm also planning to pursue modeling as a creative hobby. </p>
             </motion.div>
 
             <motion.div

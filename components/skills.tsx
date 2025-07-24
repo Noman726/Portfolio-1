@@ -138,26 +138,23 @@ export default function Skills() {
                             },
                           }}
                           exit={{ opacity: 0, scale: 0.3, x: 0, y: 0 }}
-                          className={`absolute z-[5] w-16 h-16 flex flex-col items-center justify-center 
-                            rounded-full bg-white/80 border border-${color}/30 
-                            backdrop-blur-md hover:scale-110 transition-transform shadow-lg`}
+                          style={{ position: 'absolute', zIndex: 5 }}
                         >
-                          <motion.img
-                            src={`https://cdn.simpleicons.org/${skill.icon}/${color}`}
-                            alt={skill.name}
-                            className="w-7 h-7 drop-shadow-lg"
-                            animate={{
-                              y: [0, -3, 0],
-                              x: [0, 2, -2, 0],
-                              rotate: [0, 3, -3, 0],
-                            }}
-                            transition={{
-                              duration: 3 + Math.random(),
-                              repeat: Infinity,
-                              ease: 'easeInOut',
-                            }}
-                          />
-                          <span className={`text-[10px] mt-1 text-center text-${color} font-medium drop-shadow-sm`}>{skill.name}</span>
+                          <div
+                            className={`w-16 h-16 flex flex-col items-center justify-center 
+                              rounded-full bg-white/80 border border-${color}/30 
+                              backdrop-blur-md hover:scale-110 transition-transform shadow-lg`}
+                          >
+                            <img
+                              src={`https://cdn.simpleicons.org/${skill.icon}/${color}`}
+                              alt={skill.name}
+                              className="w-7 h-7 drop-shadow-lg"
+                              style={{
+                                animation: 'orbitAnim 3s infinite ease-in-out',
+                              }}
+                            />
+                            <span className={`text-[10px] mt-1 text-center text-${color} font-medium drop-shadow-sm`}>{skill.name}</span>
+                          </div>
                         </motion.div>
                       );
                     })}
